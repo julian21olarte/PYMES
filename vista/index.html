@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Carrito de compras</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="../public/css/style.css" >
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">PRODUCTOS</a>
+	    </div>
+	    <ul class="nav navbar-nav navbar-right">
+	      <li><a href="#">Cliente</a></li>
+	      <li><a href="#" data-toggle="modal" data-target="#modal-carrito">
+	      <span class="glyphicon glyphicon-shopping-cart"></span>
+	      Carrito
+	      </a></li>
+	      
+	    </ul>
+	    <form class="navbar-form navbar-right">
+		  <div class="input-group">
+		    <input type="text" class="form-control" placeholder="Buscar">
+		    <div class="input-group-btn">
+		      <button class="btn btn-default" type="submit">
+		        <i class="glyphicon glyphicon-search"></i>
+		      </button>
+		    </div>
+		  </div>
+		</form>
+	  </div>
+
+	</nav>
+	
+	<div class="container">
+
+		<section>
+			<div class="row">
+				<div class="col-xs-12 col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Producto #</h4>
+						</div>
+						<div class="panel-body">
+							<p>descripcion:</p>
+							<p>Precio: $</p>
+						</div>
+						<div class="panel-footer">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Producto #</h4>
+						</div>
+						<div class="panel-body">
+							<p>descripcion:</p>
+							<p>Precio: $</p>
+						</div>
+						<div class="panel-footer">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Producto #</h4>
+						</div>
+						<div class="panel-body">
+							<p>descripcion:</p>
+							<p>Precio: $</p>
+						</div>
+						<div class="panel-footer">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+		
+	<div id="modal-carrito" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">PRODUCTOS DEL CARRITO</h4>
+	      </div>
+	      <div class="modal-body">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Producto</th>
+						<th>Cantidad</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>producto algo</td>
+						<td>4</td>
+						<td>$ 12344</td>
+						<td><button class="btn-danger btn-circle"><span class="glyphicon glyphicon-minus"></span></button></td>
+					</tr>
+					<tr>
+						<td>producto algo</td>
+						<td>4</td>
+						<td>$ 12344</td>
+						<td><button class="btn-danger btn-circle"><span class="glyphicon glyphicon-minus"></span></button></td>
+					</tr>
+					<tr>
+						<td>producto algo</td>
+						<td>4</td>
+						<td>$ 12344</td>
+						<td><button class="btn-danger btn-circle"><span class="glyphicon glyphicon-minus"></span></button></td>
+					</tr>
+					<tr>
+						<td>producto algo</td>
+						<td>4</td>
+						<td>$ 12344</td>
+						<td><button class="btn-danger btn-circle"><span class="glyphicon glyphicon-minus"></span></button></td>
+					</tr>
+					<tr>
+						<td>producto algo</td>
+						<td>4</td>
+						<td>$ 12344</td>
+						<td><button class="btn-danger btn-circle"><span class="glyphicon glyphicon-minus"></span></button></td>
+					</tr>
+					<tr>
+						<td>producto algo</td>
+						<td>4</td>
+						<td>$ 12344</td>
+						<td><button class="btn-danger btn-circle"><span class="glyphicon glyphicon-minus"></span></button></td>
+					</tr>
+				</tbody>
+			</table>
+			
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-danger" data-dismiss="modal">CERRAR</button>
+	        <button type="button" class="btn btn-success" data-dismiss="modal">COMPRAR</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

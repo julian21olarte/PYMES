@@ -6,11 +6,18 @@ body {
 
 
 section {
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
 	background-color: #fff;
 	padding: 5%;
 	margin: 10% 0;
+	box-shadow: 4px 6px 5px #222;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	color: teal;
+	font-weight: bold;
 }
 
 .panel-heading {
